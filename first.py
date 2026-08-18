@@ -50,6 +50,11 @@ for i in range(1000):
 print("Final weights after training:")
 print(weights)
 
+unknownInput = np.array([[1, 0, 1, 0, 0]])
+unknownNodeVal = sigmoid(unknownInput @ weights)
+print("Output for unknown input:")
+print(unknownNodeVal)
+
 # #test uniqueness cus im blind
 # for i, input in enumerate(testSetInputs):
 
