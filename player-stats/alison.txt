@@ -1,0 +1,51 @@
+,,,,,,,,,,,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,
+Date,Day,Comp,Round,Venue,Result,Squad,Opponent,Start,Pos,Min,Gls,Ast,PK,PKatt,Sh,SoT,CrdY,CrdR,Fls,Fld,Off,Crs,TklW,Int,OG,PKwon,PKcon,Match Report
+2025-08-10,Sun,FA Community Shield,FA Community Shield,Neutral,D 2 (2)–2 (3),Liverpool,Crystal Palace,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,Match Report
+2025-08-15,Fri,Premier League,Matchweek 1,Home,W 4–2,Liverpool,Bournemouth,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-08-25,Mon,Premier League,Matchweek 2,Away,W 3–2,Liverpool,Newcastle,Y,GK,90,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,Match Report
+2025-08-31,Sun,Premier League,Matchweek 3,Home,W 1–0,Liverpool,Arsenal,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-09-04,Thu,WCQ,World Cup qualification,Home,W 3–0,br Brazil,cl Chile,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-09-09,Tue,WCQ,World Cup qualification,Away,L 0–1,br Brazil,bo Bolivia,Y*,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-09-14,Sun,Premier League,Matchweek 4,Away,W 1–0,Liverpool,Burnley,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-09-17,Wed,Champions Lg,League phase,Home,W 3–2,eng Liverpool,es Atlético Madrid,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-09-20,Sat,Premier League,Matchweek 5,Home,W 2–1,Liverpool,Everton,Y,GK,90,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,Match Report
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2025-09-27,Sat,Premier League,Matchweek 6,Away,L 1–2,Liverpool,Crystal Palace,Y,GK,90,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,Match Report
+2025-09-30,Tue,Champions Lg,League phase,Away,L 0–1,eng Liverpool,tr Galatasaray,Y,GK,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2025-11-22,Sat,Premier League,Matchweek 12,Home,L 0–3,Liverpool,Nottingham,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2025-11-30,Sun,Premier League,Matchweek 13,Away,W 2–0,Liverpool,West Ham,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-12-03,Wed,Premier League,Matchweek 14,Home,D 1–1,Liverpool,Sunderland,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-12-06,Sat,Premier League,Matchweek 15,Away,D 3–3,Liverpool,Leeds United,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-12-09,Tue,Champions Lg,League phase,Away,W 1–0,eng Liverpool,it Inter,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-12-13,Sat,Premier League,Matchweek 16,Home,W 2–0,Liverpool,Brighton,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-12-20,Sat,Premier League,Matchweek 17,Away,W 2–1,Liverpool,Tottenham,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-12-27,Sat,Premier League,Matchweek 18,Home,W 2–1,Liverpool,Wolves,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-01-01,Thu,Premier League,Matchweek 19,Home,D 0–0,Liverpool,Leeds United,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-01-04,Sun,Premier League,Matchweek 20,Away,D 2–2,Liverpool,Fulham,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-01-08,Thu,Premier League,Matchweek 21,Away,D 0–0,Liverpool,Arsenal,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-01-17,Sat,Premier League,Matchweek 22,Home,D 1–1,Liverpool,Burnley,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-01-21,Wed,Champions Lg,League phase,Away,W 3–0,eng Liverpool,fr Marseille,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-01-24,Sat,Premier League,Matchweek 23,Away,L 2–3,Liverpool,Bournemouth,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-01-28,Wed,Champions Lg,League phase,Home,W 6–0,eng Liverpool,az Qarabağ,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-01-31,Sat,Premier League,Matchweek 24,Home,W 4–1,Liverpool,Newcastle,Y,GK,90,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,,,Match Report
+2026-02-08,Sun,Premier League,Matchweek 25,Home,L 1–2,Liverpool,Manchester City,Y,GK,90,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,,,Match Report
+2026-02-11,Wed,Premier League,Matchweek 26,Away,W 1–0,Liverpool,Sunderland,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-02-14,Sat,FA Cup,Fourth round proper,Home,W 3–0,Liverpool,Brighton,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-02-22,Sun,Premier League,Matchweek 27,Away,W 1–0,Liverpool,Nottingham,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-02-28,Sat,Premier League,Matchweek 28,Home,W 5–2,Liverpool,West Ham,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-03-03,Tue,Premier League,Matchweek 29,Away,L 1–2,Liverpool,Wolves,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-03-06,Fri,FA Cup,Fifth round proper,Away,W 3–1,Liverpool,Wolves,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2026-03-15,Sun,Premier League,Matchweek 30,Home,D 1–1,Liverpool,Tottenham,Y,GK,90,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,,,Match Report
+2026-03-18,Wed,Champions Lg,Round of 16,Home,W 4–0,eng Liverpool,tr Galatasaray,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2026-05-24,Sun,Premier League,Matchweek 38,Home,D 1–1,Liverpool,Brentford,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-05-31,Sun,Friendlies (M),Friendlies (M),Home,W 6–2,br Brazil,pa Panama,Y,GK,45,0,0,0,0,,,0,0,,,,,,,0,,,Match Report
+2026-06-06,Sat,Friendlies (M),Friendlies (M),Neutral,W 2–1,br Brazil,eg Egypt,Y,GK,45,0,0,0,0,,,0,0,,,,,,,0,,,Match Report
+2026-06-13,Sat,World Cup,Group stage,Neutral,D 1–1,br Brazil,ma Morocco,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-06-19,Fri,World Cup,Group stage,Neutral,W 3–0,br Brazil,ht Haiti,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-06-24,Wed,World Cup,Group stage,Neutral,W 3–0,br Brazil,sct Scotland,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-06-29,Mon,World Cup,Round of 32,Neutral,W 2–1,br Brazil,jp Japan,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+,,,,,26-10-7,,,43/43,,3745,0,0,0,0,0,0,1,0,1,7,0,0,1,0,0,,,

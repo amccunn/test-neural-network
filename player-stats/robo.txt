@@ -1,0 +1,52 @@
+,,,,,,,,,,,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,
+Date,Day,Comp,Round,Venue,Result,Squad,Opponent,Start,Pos,Min,Gls,Ast,PK,PKatt,Sh,SoT,CrdY,CrdR,Fls,Fld,Off,Crs,TklW,Int,OG,PKwon,PKcon,Match Report
+2025-08-10,Sun,FA Community Shield,FA Community Shield,Neutral,D 2 (2)–2 (3),Liverpool,Crystal Palace,N,,7,0,0,0,0,0,0,0,0,1,0,0,1,0,0,,,,Match Report
+2025-08-15,Fri,Premier League,Matchweek 1,Home,W 4–2,Liverpool,Bournemouth,N,,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-09-05,Fri,WCQ,First round,Away,D 0–0,sct Scotland,dk Denmark,Y*,LB,90,0,0,0,0,0,0,0,0,0,0,0,8,0,2,0,,,Match Report
+2025-09-08,Mon,WCQ,First round,Away,W 2–0,sct Scotland,by Belarus,Y*,LB,90,0,0,0,0,1,0,0,0,0,0,0,5,1,0,0,,,Match Report
+2025-09-14,Sun,Premier League,Matchweek 4,Away,W 1–0,Liverpool,Burnley,N,,53,0,0,0,0,1,1,0,0,0,0,1,8,0,0,0,,,Match Report
+2025-09-17,Wed,Champions Lg,League phase,Home,W 3–2,eng Liverpool,es Atlético Madrid,Y,LB,85,1,0,0,0,1,1,0,0,1,0,0,2,0,1,0,,,Match Report
+2025-09-23,Tue,EFL Cup,Third round,Home,W 2–1,Liverpool,Southampton,Y*,LB,90,0,0,0,0,0,0,0,0,0,0,0,3,0,1,0,,,Match Report
+2025-10-04,Sat,Premier League,Matchweek 7,Away,L 1–2,Liverpool,Chelsea,N,,36,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,,,Match Report
+2025-10-09,Thu,WCQ,First round,Home,W 3–1,sct Scotland,gr Greece,Y*,LB,89,0,0,0,0,0,0,0,0,0,0,0,4,1,1,0,,,Match Report
+2025-10-12,Sun,WCQ,First round,Home,W 2–1,sct Scotland,by Belarus,Y*,LB,90,0,1,0,0,0,0,0,0,0,0,0,10,0,0,0,,,Match Report
+2025-10-22,Wed,Champions Lg,League phase,Away,W 5–1,eng Liverpool,de Frankfurt,Y,LB,90,0,1,0,0,0,0,0,0,2,0,0,5,1,3,0,,,Match Report
+2025-10-25,Sat,Premier League,Matchweek 9,Away,L 2–3,Liverpool,Brentford,N,,30,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,,,Match Report
+2025-10-29,Wed,EFL Cup,Fourth round,Home,L 0–3,Liverpool,Crystal Palace,Y*,CB,66,0,0,0,0,0,0,1,0,3,1,0,0,1,1,0,,,Match Report
+2025-11-01,Sat,Premier League,Matchweek 10,Home,W 2–0,Liverpool,Aston Villa,Y,LB,90,0,0,0,0,1,0,0,0,0,0,1,4,1,1,0,,,Match Report
+2025-11-04,Tue,Champions Lg,League phase,Home,W 1–0,eng Liverpool,es Real Madrid,Y,LB,87,0,0,0,0,0,0,0,0,1,0,0,3,1,1,0,,,Match Report
+2025-11-09,Sun,Premier League,Matchweek 11,Away,L 0–3,Liverpool,Manchester City,Y,LB,55,0,0,0,0,0,0,0,0,0,0,1,0,2,1,0,,,Match Report
+2025-11-15,Sat,WCQ,First round,Away,L 2–3,sct Scotland,gr Greece,Y*,LB,90,0,1,0,0,0,0,0,0,0,0,0,7,1,1,0,,,Match Report
+2025-11-18,Tue,WCQ,First round,Home,W 4–2,sct Scotland,dk Denmark,Y*,LB,90,0,0,0,0,0,0,0,0,2,0,0,7,3,3,0,,,Match Report
+2025-11-22,Sat,Premier League,Matchweek 12,Home,L 0–3,Liverpool,Nottingham,N,,23,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,,,Match Report
+2025-11-30,Sun,Premier League,Matchweek 13,Away,W 2–0,Liverpool,West Ham,N,,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-12-03,Wed,Premier League,Matchweek 14,Home,D 1–1,Liverpool,Sunderland,Y,LB,85,0,0,0,0,0,0,0,0,0,0,0,6,1,2,0,,,Match Report
+2025-12-09,Tue,Champions Lg,League phase,Away,W 1–0,eng Liverpool,it Inter,Y,LB,90,0,0,0,0,0,0,0,0,0,1,0,3,0,0,0,,,Match Report
+2025-12-13,Sat,Premier League,Matchweek 16,Home,W 2–0,Liverpool,Brighton,N,,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-12-20,Sat,Premier League,Matchweek 17,Away,W 2–1,Liverpool,Tottenham,N,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-01-01,Thu,Premier League,Matchweek 19,Home,D 0–0,Liverpool,Leeds United,Y,LB,65,0,0,0,0,0,0,0,0,1,0,2,4,1,0,0,,,Match Report
+2026-01-12,Mon,FA Cup,Third round proper,Home,W 4–1,Liverpool,Barnsley,Y,LB,90,0,0,0,0,0,0,0,0,0,0,0,8,1,0,0,,,Match Report
+2026-01-17,Sat,Premier League,Matchweek 22,Home,D 1–1,Liverpool,Burnley,N,,13,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,,,Match Report
+2026-01-24,Sat,Premier League,Matchweek 23,Away,L 2–3,Liverpool,Bournemouth,N,,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-01-28,Wed,Champions Lg,League phase,Home,W 6–0,eng Liverpool,az Qarabağ,Y,LB,90,0,0,0,0,2,0,0,0,0,0,0,10,1,2,0,,,Match Report
+2026-02-11,Wed,Premier League,Matchweek 26,Away,W 1–0,Liverpool,Sunderland,Y,LB,90,0,0,0,0,1,0,0,0,2,0,0,4,0,1,0,,,Match Report
+2026-02-22,Sun,Premier League,Matchweek 27,Away,W 1–0,Liverpool,Nottingham,N,,8,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,,Match Report
+2026-03-03,Tue,Premier League,Matchweek 29,Away,L 1–2,Liverpool,Wolves,N,,26,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,,Match Report
+2026-03-06,Fri,FA Cup,Fifth round proper,Away,W 3–1,Liverpool,Wolves,Y,LB,90,1,1,0,0,1,1,0,0,0,0,0,7,0,0,0,,,Match Report
+2026-03-10,Tue,Champions Lg,Round of 16,Away,L 0–1,eng Liverpool,tr Galatasaray,N,,31,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,,,Match Report
+2026-03-15,Sun,Premier League,Matchweek 30,Home,D 1–1,Liverpool,Tottenham,Y,LB,90,0,0,0,0,1,0,0,0,1,0,0,2,0,0,0,,,Match Report
+2026-03-21,Sat,Premier League,Matchweek 31,Away,L 1–2,Liverpool,Brighton,N,,14,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,,,Match Report
+2026-03-28,Sat,Friendlies (M),Friendlies (M),Home,L 0–1,sct Scotland,jp Japan,Y*,LB,70,0,0,0,0,,,0,0,,,,,,,0,,,Match Report
+2026-03-31,Tue,Friendlies (M),Friendlies (M),Neutral,L 0–1,sct Scotland,ci Côte d'Ivoire,Y*,DM,90,0,0,0,0,,,0,0,,,,,,,0,,,Match Report
+2026-04-08,Wed,Champions Lg,Quarter-finals,Away,L 0–2,eng Liverpool,fr PSG,N,,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-04-11,Sat,Premier League,Matchweek 32,Home,W 2–0,Liverpool,Fulham,Y,LB,90,0,0,0,0,2,1,0,0,0,0,0,6,0,0,0,,,Match Report
+2026-04-19,Sun,Premier League,Matchweek 33,Away,W 2–1,Liverpool,Everton,Y,LB,86,0,0,0,0,1,0,0,0,0,1,0,2,1,0,0,,,Match Report
+2026-04-25,Sat,Premier League,Matchweek 34,Home,W 3–1,Liverpool,Crystal Palace,Y,LB,86,1,0,0,0,1,1,0,0,0,0,0,2,0,0,0,,,Match Report
+2026-05-03,Sun,Premier League,Matchweek 35,Away,L 2–3,Liverpool,Manchester Utd,Y,LB,58,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,,,Match Report
+2026-05-24,Sun,Premier League,Matchweek 38,Home,D 1–1,Liverpool,Brentford,Y,LB,82,0,0,0,0,1,0,0,0,0,0,0,5,0,1,0,,,Match Report
+2026-05-30,Sat,Friendlies (M),Friendlies (M),Home,W 4–1,sct Scotland,cw Curaçao,Y*,LB,76,0,0,0,0,,,0,0,,,,,,,0,,,Match Report
+2026-06-06,Sat,Friendlies (M),Friendlies (M),Neutral,W 4–0,sct Scotland,bo Bolivia,Y*,LB,45,0,1,0,0,,,0,0,,,,,,,0,,,Match Report
+2026-06-13,Sat,World Cup,Group stage,Neutral,W 1–0,sct Scotland,ht Haiti,Y*,LB,90,0,0,0,0,0,0,0,0,2,1,0,5,0,1,0,,,Match Report
+2026-06-19,Fri,World Cup,Group stage,Neutral,L 0–1,sct Scotland,ma Morocco,Y*,LB,90,0,0,0,0,0,0,1,0,1,0,0,2,0,1,0,,,Match Report
+2026-06-24,Wed,World Cup,Group stage,Neutral,L 0–3,sct Scotland,br Brazil,Y*,LB,45,0,0,0,0,0,0,0,0,0,0,0,3,1,0,0,,,Match Report
+,,,,,26-7-16,,,33/49,,3050,3,5,0,0,15,5,2,0,19,4,5,146,22,25,0,,,

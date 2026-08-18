@@ -15,5 +15,5 @@ def read_data(file_path):
 
     return np.array(usefulData)
 
-print(read_data('van-dijk.csv'))
+print(read_data('player-stats/van-dijk.txt'))
 # playersMinutes = np.array([

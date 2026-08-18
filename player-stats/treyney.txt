@@ -1,0 +1,29 @@
+,,,,,,,,,,,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,
+Date,Day,Comp,Round,Venue,Result,Squad,Opponent,Start,Pos,Min,Gls,Ast,PK,PKatt,Sh,SoT,CrdY,CrdR,Fls,Fld,Off,Crs,TklW,Int,OG,PKwon,PKcon,Match Report
+2025-08-25,Mon,PL2,Regular season,Home,L 2–3,Liverpool,Burnley,Y*,DM,90,0,0,0,0,,,0,0,,,,,,,0,,,Match Report
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2025-09-23,Tue,EFL Cup,Third round,Home,W 2–1,Liverpool,Southampton,Y,AM,90,0,0,0,0,1,0,0,0,1,0,0,0,0,2,0,,,Match Report
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2025-10-29,Wed,EFL Cup,Fourth round,Home,L 0–3,Liverpool,Crystal Palace,Y,CM,90,0,0,0,0,0,0,0,0,1,1,0,2,0,0,0,,,Match Report
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2025-12-20,Sat,Premier League,Matchweek 17,Away,W 2–1,Liverpool,Tottenham,N,,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,,,Match Report
+2025-12-27,Sat,Premier League,Matchweek 18,Home,W 2–1,Liverpool,Wolves,N,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-01-12,Mon,FA Cup,Third round proper,Home,W 4–1,Liverpool,Barnsley,N,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,Match Report
+2026-01-25,Sun,PL2,Regular season,Home,W 2–1,Liverpool,Leeds United,Y,DM,90,0,0,0,0,,,0,0,,,,,,,0,,,Match Report
+2026-01-28,Wed,Champions Lg,League phase,Home,W 6–0,eng Liverpool,az Qarabağ,N,,24,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,,,Match Report
+2026-02-14,Sat,FA Cup,Fourth round proper,Home,W 3–0,Liverpool,Brighton,N,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-02-15,Sun,PL2,Regular season,Home,W 4–3,Liverpool,West Brom,Y,DM,90,1,2,0,0,,,0,0,,,,,,,0,,,Match Report
+2026-02-20,Fri,PL2,Regular season,Away,W 3–0,Liverpool,Nottingham,Y,AM,63,0,0,0,0,,,0,0,,,,,,,0,,,Match Report
+2026-02-28,Sat,Premier League,Matchweek 28,Home,W 5–2,Liverpool,West Ham,N,,5,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-03-01,Sun,PL2,Regular season,Home,W 4–2,Liverpool,Tottenham,Y,DM,60,0,0,0,0,,,0,0,,,,,,,0,,,Match Report
+2026-03-06,Fri,FA Cup,Fifth round proper,Away,W 3–1,Liverpool,Wolves,N,,10,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,,,Match Report
+2026-03-08,Sun,PL2,Regular season,Home,W 5–0,Liverpool,Wolves,Y,DM,45,0,1,0,0,,,0,0,,,,,,,0,,,Match Report
+2026-03-15,Sun,Premier League,Matchweek 30,Home,D 1–1,Liverpool,Tottenham,N,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-03-18,Wed,Champions Lg,Round of 16,Home,W 4–0,eng Liverpool,tr Galatasaray,N,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-04-08,Wed,Champions Lg,Quarter-finals,Away,L 0–2,eng Liverpool,fr PSG,N,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-04-11,Sat,Premier League,Matchweek 32,Home,W 2–0,Liverpool,Fulham,N,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-04-26,Sun,PL2,Round of 16,Home,D 3 (1)–3 (3),Liverpool,Crystal Palace,Y,DM,90,0,0,0,0,,,1,0,,,,,,,0,,,Match Report
+2026-05-24,Sun,Premier League,Matchweek 38,Home,D 1–1,Liverpool,Brentford,N,,8,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,Match Report
+,,,,,15-3-3,,,9/21,,774,1,3,0,0,2,0,1,0,3,2,1,3,3,4,0,,,

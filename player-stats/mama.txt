@@ -1,0 +1,34 @@
+,,,,,,,,,,,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,
+Date,Day,Comp,Round,Venue,Result,Squad,Opponent,Start,Pos,Min,Gls,Ast,PK,PKatt,Sh,SoT,CrdY,CrdR,Fls,Fld,Off,Crs,TklW,Int,OG,PKwon,PKcon,Match Report
+2025-09-04,Thu,WCQ,First round,Home,L 2–3,ge Georgia,tr Türkiye,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-09-07,Sun,WCQ,First round,Home,W 3–0,ge Georgia,bg Bulgaria,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-09-23,Tue,EFL Cup,Third round,Home,W 2–1,Liverpool,Southampton,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-09-30,Tue,Champions Lg,League phase,Away,L 0–1,eng Liverpool,tr Galatasaray,N,,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-10-04,Sat,Premier League,Matchweek 7,Away,L 1–2,Liverpool,Chelsea,Y,GK,90,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,Match Report
+2025-10-11,Sat,WCQ,First round,Away,L 0–2,ge Georgia,es Spain,Y,GK,90,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,Match Report
+2025-10-14,Tue,WCQ,First round,Away,L 1–4,ge Georgia,tr Türkiye,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-10-19,Sun,Premier League,Matchweek 8,Home,L 1–2,Liverpool,Manchester Utd,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-10-22,Wed,Champions Lg,League phase,Away,W 5–1,eng Liverpool,de Frankfurt,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-10-25,Sat,Premier League,Matchweek 9,Away,L 2–3,Liverpool,Brentford,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2025-11-01,Sat,Premier League,Matchweek 10,Home,W 2–0,Liverpool,Aston Villa,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-11-04,Tue,Champions Lg,League phase,Home,W 1–0,eng Liverpool,es Real Madrid,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-11-09,Sun,Premier League,Matchweek 11,Away,L 0–3,Liverpool,Manchester City,Y,GK,90,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,Match Report
+2025-11-15,Sat,WCQ,First round,Home,L 0–4,ge Georgia,es Spain,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-11-18,Tue,WCQ,First round,Away,L 1–2,ge Georgia,bg Bulgaria,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2025-11-26,Wed,Champions Lg,League phase,Home,L 1–4,eng Liverpool,nl PSV,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-01-12,Mon,FA Cup,Third round proper,Home,W 4–1,Liverpool,Barnsley,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-03-10,Tue,Champions Lg,Round of 16,Away,L 0–1,eng Liverpool,tr Galatasaray,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-03-21,Sat,Premier League,Matchweek 31,Away,L 1–2,Liverpool,Brighton,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-03-26,Thu,Friendlies (M),Friendlies (M),Home,D 2–2,ge Georgia,il Israel,Y,GK,90,0,0,0,0,,,0,0,,,,,,,0,,,Match Report
+2026-03-29,Sun,Friendlies (M),Friendlies (M),Away,W 2–0,ge Georgia,lt Lithuania,Y,GK,90,0,0,0,0,,,0,0,,,,,,,0,,,Match Report
+2026-04-04,Sat,FA Cup,Quarter-finals,Away,L 0–4,Liverpool,Manchester City,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-04-08,Wed,Champions Lg,Quarter-finals,Away,L 0–2,eng Liverpool,fr PSG,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-04-11,Sat,Premier League,Matchweek 32,Home,W 2–0,Liverpool,Fulham,Y,GK,90,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,Match Report
+2026-04-14,Tue,Champions Lg,Quarter-finals,Home,L 0–2,eng Liverpool,fr PSG,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-04-19,Sun,Premier League,Matchweek 33,Away,W 2–1,Liverpool,Everton,Y,GK,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2026-05-09,Sat,Premier League,Matchweek 36,Home,D 1–1,Liverpool,Chelsea,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,,,Match Report
+2026-05-15,Fri,Premier League,Matchweek 37,Away,L 2–4,Liverpool,Aston Villa,Y,GK,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,Match Report
+2026-06-02,Tue,Friendlies (M),Friendlies (M),Home,D 1–1,ge Georgia,ro Romania,Y,GK,90,0,0,0,0,,,0,0,,,,,,,0,,,Match Report
+,,,,,9-3-17,,,28/29,,2522,0,0,0,0,0,0,0,0,2,2,0,0,1,1,0,,,
