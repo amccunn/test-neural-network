@@ -13,12 +13,38 @@ def sigmoid_derivative(x):
 def apply_sigmoid(pixel_matrix):
     return [sigmoid((pixel - 100) / 25) for pixel in pixel_matrix]
 
-
-class DrawingApp:
+class AnimalSelectionScreen:
 
     def __init__(self, root):
         self.root = root
-        self.root.title("Tkinter Canvas Drawing")
+        self.root.title("Select an Animal")
+        self.root.geometry("200x400")
+
+        tk.Label(root, text="Select an animal to draw:").pack(pady=10)
+
+        self.animal_var = tk.StringVar(value="cat")
+        animals = ["cat", "dog", "elephant", "giraffe", "lion", "monkey", "panda", "penguin", "rabbit", "tiger"]
+        for animal in animals:
+            tk.Radiobutton(root, text=animal.capitalize(),
+                           variable=self.animal_var, value=animal).pack(anchor="w")
+
+        tk.Button(root, text="Start Drawing", command=self.start_drawing).pack(pady=10)
+
+    def start_drawing(self):
+        selected_animal = self.animal_var.get()
+        self.root.destroy()  # Close the selection window
+        drawing_root = tk.Tk()
+        DrawingApp(drawing_root, selected_animal)
+        drawing_root.mainloop()
+
+
+class DrawingApp:
+
+    def __init__(self, root, animal):
+        self.root = root
+        self.root.title("Drawing Game")
+        self.animal = animal
+        tk.Label(root, text=f"Draw a {self.animal}").pack(pady=10)
 
         # Canvas setup
         self.canvas = tk.Canvas(root, width=600, height=400, bg="white")
@@ -34,7 +60,7 @@ class DrawingApp:
 
         # Buttons
         tk.Button(root, text="Clear Canvas", command=self.clear_canvas).pack(pady=5)
-        tk.Button(root, text="Save Grayscale Pixels", command=self.get_grayscale_pixels).pack(pady=5)
+        tk.Button(root, text="Submit Image", command=self.submit).pack(pady=5)
 
         # Event bindings
         self.start_x = None
@@ -66,15 +92,15 @@ class DrawingApp:
                 self.canvas.delete(self.current_item)
             if shape == "line":
                 self.current_item = self.canvas.create_line(
-                    self.start_x, self.start_y, event.x, event.y, fill="blue"
+                    self.start_x, self.start_y, event.x, event.y, fill="black"
                 )
             elif shape == "rectangle":
                 self.current_item = self.canvas.create_rectangle(
-                    self.start_x, self.start_y, event.x, event.y, outline="green"
+                    self.start_x, self.start_y, event.x, event.y, outline="black"
                 )
             elif shape == "oval":
                 self.current_item = self.canvas.create_oval(
-                    self.start_x, self.start_y, event.x, event.y, outline="red"
+                    self.start_x, self.start_y, event.x, event.y, outline="black"
                 )
 
     def on_release(self, event):
@@ -90,7 +116,7 @@ class DrawingApp:
     def get_grayscale_pixels(self):
 
         # Force Tkinter to update geometry so coordinates are accurate
-        root.update()
+        self.root.update()
         
         # Get screen coordinates of the canvas widget
         x = self.root.winfo_rootx() + self.canvas.winfo_x()
@@ -109,14 +135,18 @@ class DrawingApp:
         #     raw_pixels[i * width:(i + 1) * width] 
         #     for i in range(height)
         # ]
-        with open ("training_data/image_" + str(time.time()) + ".txt", "a") as f:
+        with open ("training_data/" + self.animal + "_" + str(time.time()) + ".txt", "a") as f:
             f.write(str(list(map(float, apply_sigmoid(raw_pixels)))))
 
-        self.root.destroy()
+
+    def submit(self):
+        """Submit the drawing and close the application."""
+        self.get_grayscale_pixels()
+        self.root.quit()
 
 # Run the application
 if __name__ == "__main__":
 
     root = tk.Tk()
-    app = DrawingApp(root)
+    app = AnimalSelectionScreen(root)
     root.mainloop()
