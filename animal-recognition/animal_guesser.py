@@ -7,9 +7,6 @@ from PIL import Image, ImageGrab
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
-def sigmoid_derivative(x):
-    return sigmoid(x) * (1 - sigmoid(x))
-
 def apply_sigmoid(pixel_matrix):
     return [sigmoid((pixel - 100) / 25) for pixel in pixel_matrix]
 
