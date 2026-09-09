@@ -127,11 +127,6 @@ class DrawingApp:
         width, height = img.size
         raw_pixels = list(img.getdata())
         
-        # # Convert flat list to 2D matrix
-        # pixel_matrix = [
-        #     raw_pixels[i * width:(i + 1) * width] 
-        #     for i in range(height)
-        # ]
         with open ("training_data/" + self.animal + "_" + str(time.time()) + ".txt", "a") as f:
             f.write(str(list(map(float, apply_sigmoid(raw_pixels)))))
 
