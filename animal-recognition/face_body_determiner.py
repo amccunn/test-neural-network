@@ -1,9 +1,6 @@
 import numpy as np
 import json
 
-with open("practice.txt", "r") as f:
-    pixelVals = np.array(list(map(float, json.load(f))))
-
 def apply_sigmoid(n):
     return 1 / (1 + np.exp(-n))
 
@@ -48,7 +45,7 @@ class NeuralNetwork:
         # Calculate the error at the output layer
         error = expected_output - outputs
         
-        # Backpropagation (simplified for demonstration)
+        # Backpropagation
         for i in reversed(range(len(self.layers))):
             layer = self.layers[i]
             new_errors = []
@@ -60,4 +57,11 @@ class NeuralNetwork:
                 node.bias += learning_rate * gradient
                 new_errors.append(np.dot(node.weights, gradient))
             error = np.array(new_errors)  # Prepare error for the next layer
+
+if  __name__ == "__main__":
+
+    with open("practice.json", "r") as f:
+        pixelVals = np.array(list(json.load(f)))
+
+    
 

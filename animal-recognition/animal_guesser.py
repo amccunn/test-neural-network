@@ -1,6 +1,7 @@
 import time
 import tkinter as tk
 import numpy as np
+import json
 from tkinter import messagebox
 from PIL import Image, ImageGrab
 
@@ -126,15 +127,20 @@ class DrawingApp:
         
         width, height = img.size
         raw_pixels = list(img.getdata())
+
+        pixels_2d = np.array([
+            raw_pixels[i * width:(i + 1) * width]
+            for i in range(height)
+        ])
         
-        with open ("training_data/" + self.animal + "_" + str(time.time()) + ".txt", "a") as f:
-            f.write(str(list(map(float, apply_sigmoid(raw_pixels)))))
+        with open("training_data/" + self.animal + "_" + str(time.time()) + ".json", "a") as f:
+            json.dump(pixels_2d.tolist(), f)
 
 
     def submit(self):
         """Submit the drawing and close the application."""
         self.get_grayscale_pixels()
-        self.root.quit()
+        self.root.destroy()
 
 # Run the application
 if __name__ == "__main__":
