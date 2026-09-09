@@ -5,6 +5,8 @@ import json
 from tkinter import messagebox
 from PIL import Image, ImageGrab
 
+ANIMALS = ["cat", "dog", "elephant", "giraffe", "lion", "monkey", "panda", "penguin", "rabbit", "tiger"]
+
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
@@ -21,7 +23,7 @@ class AnimalSelectionScreen:
         tk.Label(root, text="Select an animal to draw:").pack(pady=10)
 
         self.animal_var = tk.StringVar(value="cat")
-        animals = ["cat", "dog", "elephant", "giraffe", "lion", "monkey", "panda", "penguin", "rabbit", "tiger"]
+        animals = ANIMALS
         for animal in animals:
             tk.Radiobutton(root, text=animal.capitalize(),
                            variable=self.animal_var, value=animal).pack(anchor="w")
@@ -40,6 +42,8 @@ class DrawingApp:
 
     def __init__(self, root, animal):
 
+        self.SIZE = 400
+
         self.COLOURS = {
             "black": "#000000", 
             "white": "#FFFFFF"
@@ -51,7 +55,7 @@ class DrawingApp:
         tk.Label(root, text=f"Draw a {self.animal}").pack(pady=10)
 
         # Canvas setup
-        self.canvas = tk.Canvas(root, width=600, height=400, bg=self.COLOURS["white"])
+        self.canvas = tk.Canvas(root, width=self.SIZE, height=self.SIZE, bg=self.COLOURS["white"])
         self.canvas.pack(pady=10)
 
         # Shape selection
