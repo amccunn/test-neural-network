@@ -63,5 +63,37 @@ if  __name__ == "__main__":
     with open("practice.json", "r") as f:
         pixelVals = np.array(list(json.load(f)))
 
-    
+    padded_pixelVals = np.pad(pixelVals, pad_width=1, mode='constant', constant_values=0)
 
+    horizontal_edges = np.array([
+        [1, 1, 1],
+        [0, 0, 0],
+        [-1, -1, -1]
+    ])
+
+    vertical_edges = np.array([
+        [1, 0, -1],
+        [1, 0, -1],
+        [1, 0, -1]
+    ])
+
+
+    lens_size = horizontal_edges.shape[0]
+    pixel_size = pixelVals.shape[0]
+
+    output = np.zeros((pixel_size, pixel_size))
+
+    for y in range(pixel_size):
+
+        for x in range(pixel_size):
+
+            region = padded_pixelVals[y:y + lens_size, x:x + lens_size]
+
+            horizontal_response = np.sum(region * horizontal_edges)
+            vertical_response = np.sum(region * vertical_edges)
+
+            combined_response = np.sqrt(horizontal_response**2 + vertical_response**2)
+
+            output[y, x] = combined_response
+
+    print(output)

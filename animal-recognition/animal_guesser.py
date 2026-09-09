@@ -9,7 +9,7 @@ def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
 def apply_sigmoid(pixel_matrix):
-    return [sigmoid((pixel - 100) / 25) for pixel in pixel_matrix]
+    return [[sigmoid((pixel - 100) / 25) for pixel in row] for row in pixel_matrix]
 
 class AnimalSelectionScreen:
 
@@ -39,13 +39,19 @@ class AnimalSelectionScreen:
 class DrawingApp:
 
     def __init__(self, root, animal):
+
+        self.COLOURS = {
+            "black": "#000000", 
+            "white": "#FFFFFF"
+        }
+
         self.root = root
         self.root.title("Drawing Game")
         self.animal = animal
         tk.Label(root, text=f"Draw a {self.animal}").pack(pady=10)
 
         # Canvas setup
-        self.canvas = tk.Canvas(root, width=600, height=400, bg="white")
+        self.canvas = tk.Canvas(root, width=600, height=400, bg=self.COLOURS["white"])
         self.canvas.pack(pady=10)
 
         # Shape selection
@@ -74,7 +80,7 @@ class DrawingApp:
         self.start_x, self.start_y = event.x, event.y
         if self.shape_var.get() == "freehand":
             self.current_item = self.canvas.create_line(
-                self.start_x, self.start_y, event.x, event.y, fill="black"
+                self.start_x, self.start_y, event.x, event.y, fill=self.COLOURS["black"]
             )
 
     def on_drag(self, event):
@@ -82,7 +88,7 @@ class DrawingApp:
         shape = self.shape_var.get()
         if shape == "freehand":
             self.canvas.create_line(
-                self.start_x, self.start_y, event.x, event.y, fill="black"
+                self.start_x, self.start_y, event.x, event.y, fill=self.COLOURS["black"]
             )
             self.start_x, self.start_y = event.x, event.y
         else:
@@ -90,15 +96,15 @@ class DrawingApp:
                 self.canvas.delete(self.current_item)
             if shape == "line":
                 self.current_item = self.canvas.create_line(
-                    self.start_x, self.start_y, event.x, event.y, fill="black"
+                    self.start_x, self.start_y, event.x, event.y, fill=self.COLOURS["black"]
                 )
             elif shape == "rectangle":
                 self.current_item = self.canvas.create_rectangle(
-                    self.start_x, self.start_y, event.x, event.y, outline="black"
+                    self.start_x, self.start_y, event.x, event.y, outline=self.COLOURS["black"]
                 )
             elif shape == "oval":
                 self.current_item = self.canvas.create_oval(
-                    self.start_x, self.start_y, event.x, event.y, outline="black"
+                    self.start_x, self.start_y, event.x, event.y, outline=self.COLOURS["black"]
                 )
 
     def on_release(self, event):
@@ -134,7 +140,7 @@ class DrawingApp:
         ])
         
         with open("training_data/" + self.animal + "_" + str(time.time()) + ".json", "a") as f:
-            json.dump(pixels_2d.tolist(), f)
+            json.dump(apply_sigmoid(pixels_2d.tolist()), f)
 
 
     def submit(self):
