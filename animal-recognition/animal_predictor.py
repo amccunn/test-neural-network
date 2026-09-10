@@ -5,25 +5,9 @@ from animal_guesser import ANIMALS
 def apply_sigmoid(n):
     return 1 / (1 + np.exp(-n))
 
-def load_model(filename="animal_model_weights.npz"):
-    
-    data = np.load(filename, allow_pickle=True)
-    saved_weights = data["weights"]
-    saved_biases = data["biases"]
-    
-    layers = []
-    for layer_w, layer_b in zip(saved_weights, saved_biases):
-        layer = []
-        for w, b in zip(layer_w, layer_b):
-            # Create a node using the shapes found in the file
-            node = Node(weights=w, bias=b)
-            layer.append(node)
-        layers.append(layer)
-        
-    return NeuralNetwork(layers)
-
 
 class Node:
+
     def __init__(self, weights, bias, activation_function=apply_sigmoid, identifier=None):
         self.weights = weights
         self.bias = bias
@@ -36,9 +20,13 @@ class Node:
 
 
 class NeuralNetwork:
-    def __init__(self, layers):
+
+    def __init__(self, layers, model_name, learning_rate=0.01):
+
         self.layers = layers  # List of lists of Node objects
         self.layer_inputs = [] # Cache to store inputs for each layer during forward pass
+        self.model_name = model_name
+        self.learning_rate = learning_rate  # Default learning rate, can be adjusted as needed
 
     def forward(self, inputs):
         self.layer_inputs = [] # Reset cache
@@ -82,6 +70,50 @@ class NeuralNetwork:
                 
             error = new_errors  # Pass error backward to the preceding layer
 
+    def save_model(self):
+
+        filename = self.model_name + ".npz"
+
+        weights_list = []
+        biases_list = []
+        identifiers_list = []
+        
+        for layer in self.layers:
+
+            # Extract weights and biases from each node in the layer
+            layer_weights = [node.weights for node in layer]
+            layer_biases = [node.bias for node in layer]  
+            layer_identifiers = [node.identifier for node in layer]
+            weights_list.append(np.array(layer_weights))
+            biases_list.append(np.array(layer_biases))
+            identifiers_list.append(np.array(layer_identifiers))
+            
+        # Save arrays into a single file
+        np.savez(filename, weights=np.array(weights_list, dtype=object), biases=np.array(biases_list, dtype=object), identifiers=np.array(identifiers_list, dtype=object))
+
+    def load_model(self, filename=None):
+
+        if filename is None:
+
+            filename = self.model_name + ".npz"
+
+        data = np.load(filename, allow_pickle=True)
+        saved_weights = data["weights"]
+        saved_biases = data["biases"]
+        saved_identifiers = data["identifiers"]
+        
+        layers = []
+        for layer_w, layer_b, layer_identifiers in zip(saved_weights, saved_biases, saved_identifiers):
+            layer = []
+            for w, b, identifier in zip(layer_w, layer_b, layer_identifiers):
+                # Create a node using the shapes found in the file
+                node = Node(weights=w, bias=b, identifier=identifier)
+                layer.append(node)
+            layers.append(layer)
+            
+        self.layers = layers  # Update the model's layers with the loaded structure
+
+
 def edge_finder(filename):
 
     with open(filename, "r") as f:
@@ -122,49 +154,6 @@ def edge_finder(filename):
 
     return edge_output
 
-if  __name__ == "__main__":
 
-    filename = "practice.json"
-
-    input_edges = edge_finder(filename)
-
-    flattened_edges = input_edges.flatten()
-    input_size = len(flattened_edges)
-    hidden_size_1 = 32
-    hidden_size_2 = 16
-
-    #number of animals to classify
-    animals = ANIMALS
-    num_classes = len(animals)
-
-    expected_targets_identifiers = {animal: np.zeros(num_classes) for i, animal in enumerate(animals)}
-    for animal, target in expected_targets_identifiers.items():
-        target[animals.index(animal)] = 1.0
-
-    
-    # Hidden Layer 1 (Takes 400 * 400 inputs per node from the flattened edge-detected image) unless the input size is changed
-    layer1 = [
-        Node(weights=np.random.randn(input_size) * 0.01, bias=0.0, identifier=f"H1_{i}")
-        for i in range(hidden_size_1)
-    ]
-
-    # Hidden Layer 2 (Takes 32 inputs per node from Layer 1)
-    layer2 = [
-        Node(weights=np.random.randn(hidden_size_1) * 0.01, bias=0.0, identifier=f"H2_{i}")
-        for i in range(hidden_size_2)
-    ]
-
-    # Output Layer (Takes 16 inputs per node from Layer 2)
-    output_layer = [
-        Node(weights=np.random.randn(hidden_size_2) * 0.01, bias=0.0, identifier=f"Out_{i}")
-        for i in range(num_classes)
-    ]
-
-    # Combine into the Deep Neural Network
-    deep_animal_net = NeuralNetwork([layer1, layer2, output_layer])
-
-    # Run a forward prediction
-    prediction = deep_animal_net.forward(flattened_edges)
-    print("Initial Prediction Before Training:", prediction)
 
 

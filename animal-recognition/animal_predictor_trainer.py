@@ -1,20 +1,21 @@
 import numpy as np
 import json
+from animal_predictor import NeuralNetwork, ANIMALS
 
-def save_model(network, filename="animal_model_weights.npz"):
+if __name__ == "__main__":
 
-    weights_list = []
-    biases_list = []
+    #number of animals to classify
+    animals = ANIMALS
+    num_classes = len(animals)
+
+    #the target vectors for each animal, where the index of the animal in the ANIMALS list corresponds to the index of the 1 in the target vector
+    expected_targets_identifiers = {animal: np.zeros(num_classes) for animal in animals}
+    for animal, target in expected_targets_identifiers.items():
+        target[animals.index(animal)] = 1.0
+
+    pre_trained_model = NeuralNetwork([[]], model_name="blank_model", learning_rate=0.01)
+    pre_trained_model.load_model()
+
+    print("Model loaded successfully. Ready for training.")
+
     
-    for layer in network.layers:
-
-        # Extract weights and biases from each node in the layer
-        layer_weights = [node.weights for node in layer]
-        layer_biases = [node.bias for node in layer]
-        weights_list.append(np.array(layer_weights))
-        biases_list.append(np.array(layer_biases))
-        
-    # Save arrays into a single file
-    np.savez(filename, weights=np.array(weights_list, dtype=object), biases=np.array(biases_list, dtype=object))
-
-
