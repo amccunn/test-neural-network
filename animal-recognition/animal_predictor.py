@@ -5,7 +5,6 @@ from animal_guesser import ANIMALS
 def apply_sigmoid(n):
     return 1 / (1 + np.exp(-n))
 
-
 class Node:
 
     def __init__(self, weights, bias, activation_function=apply_sigmoid, identifier=None):
@@ -113,6 +112,13 @@ class NeuralNetwork:
             
         self.layers = layers  # Update the model's layers with the loaded structure
 
+    #training function that takes in training data and expected targets, and trains the model for a specified number of epochs
+    def train(self, training_data, expected_targets, epochs=1000):
+
+        for epoch in range(epochs):
+
+            for inputs, expected_output in zip(training_data, expected_targets):
+                self.backward(inputs, expected_output, self.learning_rate)
 
 def edge_finder(filename):
 

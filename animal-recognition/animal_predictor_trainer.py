@@ -1,6 +1,7 @@
 import numpy as np
 import json
-from animal_predictor import NeuralNetwork, ANIMALS
+import glob
+from animal_predictor import NeuralNetwork, ANIMALS, edge_finder
 
 if __name__ == "__main__":
 
@@ -13,9 +14,22 @@ if __name__ == "__main__":
     for animal, target in expected_targets_identifiers.items():
         target[animals.index(animal)] = 1.0
 
-    pre_trained_model = NeuralNetwork([[]], model_name="blank_model", learning_rate=0.01)
-    pre_trained_model.load_model()
+    #load the blank model with the correct architecture
+    trained_model = NeuralNetwork([[]], model_name="blank_model", learning_rate=0.01)
+    trained_model.load_model()
 
     print("Model loaded successfully. Ready for training.")
 
-    
+    input_data = []
+    expected_targets = []
+
+    for filepath in glob.glob("training_data/*.json"):
+
+        #get animal name from filename
+        animal_name = filepath.split("/")[-1].split("_")[0]  
+
+        input_data.append(edge_finder(filepath))
+
+        expected_targets.append(expected_targets_identifiers[animal_name])
+
+    trained_model.train(input_data, expected_targets, epochs=10)    

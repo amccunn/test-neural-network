@@ -209,10 +209,10 @@ class DrawingScreen:
             # Capture the image once
             img = ImageGrab.grab(bbox=(x, y, w, h))
             
-            # --- 1. Save temp PNG for the Rating Screen UI ---
+            #Save temp PNG for the Rating Screen UI
             img.save(self.save_path) 
             
-            # --- 2. Save JSON Data for your training model ---
+            #Save JSON Data for your training model
             img_gray = img.convert("L")
             width, height = img_gray.size
             raw_pixels = list(img_gray.getdata())
